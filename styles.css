@@ -1,0 +1,43 @@
+body {
+  font-family: helvetica, sans-serif;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.text {
+  width: 47%;
+  min-height: 50px;
+  background: #f4f4f4;
+  float: left;
+  padding: 0.5%;
+  margin: 0.5%;
+}
+
+.center {
+  width: 100%;
+  text-align: center;
+}
+
+#res {
+  width: 96%;
+  min-height: 50px;
+  background: #f4f4f4;
+  float: left;
+  padding: 0.5%;
+  margin: 0.5%;
+}
+
+.cf:after,
+.cf:before {
+  content: '';
+  display: table;
+}
+.cf:after {
+  clear: both;
+}
+.cf {
+  zoom: 1;
+}
